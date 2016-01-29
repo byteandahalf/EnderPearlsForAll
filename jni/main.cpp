@@ -25,7 +25,7 @@ struct EnderpearlItem : public Item
 void (*_initItems)();
 void initItems()
 {
-	Item::mItems[368] = Item::mEnderpearl = (new EnderpearlItem("ender_pearl", 368 - 0x100))->setIcon("ender_pearl", 0);
+	Item::mItems[368] = Item::mEnderpearl = (new EnderpearlItem("enderPearl", 368 - 0x100))->setIcon("ender_pearl", 0);
 	
 	_initItems();
 }
